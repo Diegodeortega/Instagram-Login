@@ -1,0 +1,150 @@
+* {
+ /*outline: 1px solid red;*/
+}
+
+$fill_color: white;
+$text_color: #999;
+$border_color: #fafafa;
+$background_col: #3897f0;
+
+body {
+  height: 100vh;
+  font-family: arial;
+  background-color: $border_color;
+}
+
+.container {
+  border: 1px solid #E6E6E6;
+  margin: 0 auto;
+  width: 350px;
+  padding: 40px 0;
+  position: relative;
+  top: 50%;
+  transform: translatey(-50%);
+  background-color: $fill_color;
+
+  &__login{
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-right: 0;
+}
+}
+
+.instagram {
+  width: 75%;
+  margin-left: 5px;
+}
+
+
+.facebook__login {
+  background-color: $background_col;
+  color: $fill_color;
+  font-weight: bolder;
+  font-size: 14px;
+  border: 0;
+  height: 30px;
+  width: 80%;
+  border-radius: 3px;
+
+  &__login:hover{
+  cursor: pointer;
+}
+}
+
+.log {
+  text-decoration: none;
+  color: $fill_color;
+}
+
+.fa-facebook-official {
+   width: 20px;
+  font-size: 19px;
+ 
+}
+
+.sign_up {
+  background-color: $background_col;
+  color: $fill_color;
+  font-weight: bolder;
+  font-size: 16px;
+  border: 0;
+  height: 30px;
+  width: 80%;
+  border-radius: 3px; 
+}
+
+hr.or__middle { 
+  overflow: visible;
+  width: 70%;
+  height: 6px; 
+  border: none; 
+  border-top: 1px solid #E6E6E6; 
+  text-align: center; 
+  margin: 8px 0 8px 13px;
+
+  &:after { 
+  content: "OR"; 
+  width: 15%;
+  display: inline-block; 
+  position: relative; 
+  top: -0.9em; 
+  font-size: 12px; 
+  color: $text_color;
+  padding: 0 0.25em; 
+  margin-top: 6px;
+  background: $fill_color; 
+  }
+}
+
+input{
+  width: 78.9%;
+  border: 1px solid #EFEFEF;
+  fill: $border_color;
+  height: 36px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+
+}
+
+.input__box {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign_up{
+  margin-top:10px;
+
+
+  &:hover{
+  cursor: pointer;
+}
+}
+
+.bottom_box {
+  width: 75%;
+  font-size: 11.5px;
+  color: $text_color;
+  font-weight: bolder;
+  margin-left: 15px;
+ 
+}
+
+.login__box{
+  border: 1px solid #EFEFEF;
+  width: 240px;
+  height: 70px;
+  font-size: 14px;
+  color: $text_color;
+  font-weight: lighter;
+  display: flex;
+  align-items: center;
+}
+
+
+.log_in {
+  width: 100%;
+  top: 50px;
+  padding: 60px 0 60px 40px;
+  
+}
